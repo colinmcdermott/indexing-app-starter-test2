@@ -1,0 +1,44 @@
+.status {
+    font-size: 14px;
+    display: inline;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 45px;
+}
+
+.outputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+pre.output {
+    margin-top: 35px;
+    font-size: 15px;
+    min-height: 20px;
+}
+
+.inline {
+    display: inline;
+}
+
+.inlinePre {
+    display: inline;
+    white-space: pre-wrap;
+    margin-left: 12px;
+}
+
+.response p, .ping p {
+    font-weight: bold;
+}
+
+.debug {
+    font-size: 15px;
+}
